@@ -13,8 +13,8 @@ let producto1 = parseInt (prompt("ingrese valor del producto 1"))
 let producto2 = parseInt (prompt("ingrese valor del producto 2"))
 let producto3 = parseInt (prompt("ingrese valor del producto 3"))
 
-alert (resultado = producto1+producto2+producto3)
+alert (resultado = "usted debe abonar" + " " + producto1+producto2+producto3)
 
 if (resultado >= 300) {
-    alert ("usted tiene un 20% de decuento, usted paga " + resultado * 0.8)
+    alert ("usted tiene un 20% de decuento, usted abona " + resultado * 0.8)
 }
