@@ -1,7 +1,7 @@
 for (let i = 1; i = 2; i) {
     let numedad = parseInt(prompt("ingrese su edad"));
     if (numedad < 18){
-    alert("no puede constinuar con la encuetras llama a un adulto")
+    alert("no puedes continuar llama a un adulto")
     i=1
 } else {
     alert ("puedes continuar");
